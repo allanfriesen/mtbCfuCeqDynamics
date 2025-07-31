@@ -3,9 +3,8 @@ import subprocess
 
 class StochasticSimulation:
 
-    #infile="/home/allanfriesen/local/stochastic/stochastic.in" #on work machine
-    infile="/Users/allanfriesen/local/stochastic/stochastic.in" #on laptop
-    #infile="/home/allanfriesen/TX Biomed Dropbox/Allan Friesen/stochasticSimulations/DDmodel/stochastic.in"
+    infile="/home/allanfriesen/local/stochastic/stochastic.in" #on work machine
+    #infile="/Users/allanfriesen/local/stochastic/stochastic.in" #on laptop
 
     #cmd="/home/allanfriesen/bin/stochastic.exe"
     cmd="/Users/allanfriesen/bin/stochastic.exe"
