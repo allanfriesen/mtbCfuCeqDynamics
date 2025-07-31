@@ -1,5 +1,5 @@
 # mtbCfuCeqDynamics
-These are odes used in our study of dynamics of CFUs and CEQs of Mycobacterium tuberculosis in Mice and Monkeys.
+These are codes used in our study of dynamics of CFUs and CEQs of Mycobacterium tuberculosis in Mice and Monkeys.
 
 ## stochasticSimulations ##
 For improved flexibility and speed, we implemented the adaptive-tau leaping algorithm with efficient time step selection (Cau, Gillespie, and Petzold, J Chem Phys 2006) in Fortran 08. We developed classes in Python 3 for designing kinetic models, setting up simulation parmeters, and automatically generating input files, running the Fortran code, then parsing the Fortran output into a Python dictionary.
